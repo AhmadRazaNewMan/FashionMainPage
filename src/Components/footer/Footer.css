@@ -115,6 +115,9 @@ span button{
 @media only screen and (max-width: 768px) {
    .footer{
     height: auto;
+    
+   }.fButton {
+    margin-bottom: 50px;
    }
      .footerTop{
         display: flex;
