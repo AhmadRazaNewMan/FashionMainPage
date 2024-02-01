@@ -1,0 +1,130 @@
+    *{
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .productOverCollectionTitle{
+    color: white;
+    }
+    .h-line{
+        height: 0;
+        width:100px;
+        border: 1px solid white;
+        margin-left: 100px;
+        margin-top: 10px;
+        z-index:2200000;
+    }
+    #productOverCollectionTitleSpan1{
+        margin-left: 100px;
+    opacity: 10;
+    }
+    #productOverCollectionTitleSpan2{
+    margin-left:45px;
+    }
+    .overlayButton:hover,
+    .overlayButton:hover + i {
+        background-color: white;
+        color: black;
+    }
+    .overlayButton {
+        width: 200px;
+        height: 40px;
+        border: 1px solid white;
+        margin-top: 100px;
+        padding-left: 20px;
+        margin-left: 60px;
+        padding-top: 5px;
+        color: white;
+        text-decoration: none;
+    }
+    .overlayButton:hover {
+        background-color: white;
+        color: black;
+    }
+    #menProductCollection,
+    #womenProductCollection
+    ,#kidProductCollection{
+    height: 500px;
+    }
+    #womenProductSectionButton{
+        margin-top: 300px;
+    }
+    #allCollectionAddToCart{
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .allCollectionAddToCartOutline{
+        border: 2px solid white;
+        width:  80%;
+        height: 80%;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .allCollectionAddToCartCenterDiv{
+        width: 80%;
+        height: 80%;
+        background-color: white;
+        display: grid;
+        text-align: center;
+        align-items: center;
+        font-size: 30px;
+        color:  rgb(233, 18, 100);
+    }
+    .allCollectionAddToCartCenterDiv i{
+        font-size: 30px;
+    }
+    #allCollectionMenOutline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    opacity: 0.8;
+    }
+    #allCollectionAddToCartCenterDiv{
+    height: 200px;
+    }
+    #thirdLastDiv,#firstLastDiv,#secondLastDiv,#forthLastDiv{
+        height: 350px;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .blackCoat{
+        color: gray;
+    }
+    .vs_line{
+        color:  rgba(233, 18, 129);
+        font: 20px;
+    }
+    #allCollectionAddToCartCenterDivlastSection{
+        height: 120px;
+        opacity: 0.6;
+    }
+
+
+
+
+
+
+
+
+
+    @media only screen and (max-width: 768px) {
+        .productCollections {
+          width: 200%; /* Adjust for smaller screens */
+          display: flex;
+          flex-direction: column;
+        }
+      
+        .productCollection {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          height: 250px; /* Adjust for smaller screens */
+        }
+      }

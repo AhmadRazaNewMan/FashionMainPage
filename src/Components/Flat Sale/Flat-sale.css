@@ -1,0 +1,90 @@
+.FlatSaleComponent-div{
+    width: 100%;
+    height: auto;
+    /* border: 2px solid black; */
+    overflow: hidden;
+   position: relative;
+ 
+
+}
+.FlatSaleComponent-div img{
+     width: 71%;
+     margin: 50px 50px 50px 210px;
+     height: 300px;
+     object-fit: cover;
+}
+.whiteBack{
+    /* border: 2px solid black; */
+    background-color: white;
+    margin:70px 0px 0px 250px;
+    width: 65%;
+    height: 260px;
+    position: absolute;
+    top: 0;
+
+
+}
+.pinkBack{
+    display: inline-block;
+    border: 2px solid rgb(213, 25, 154);
+    background-color: transparent;
+    margin:18px 0px 0px 20px;
+    width: 96%;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+
+}
+.discountContent{
+    /* border: 1px solid black; */
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.discountContentSale{
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    
+}
+
+.discountContentSale h1{
+    color: rgb(255, 1, 107);
+    font-size: 40px;
+}
+.salePercentage{
+    font-size: 3em;
+    color: rgb(255, 1, 107);
+}
+.flatsle{
+    /* border: 3px solid black; */
+    width: inherit;
+    height: 100%;
+    text-align: center;
+    
+}
+.flatsle h2{
+    font-size: 40px;
+}
+.flatsle p{
+    text-wrap: wrap;
+    letter-spacing: 3px;
+    font-size: 20px;
+    color: gray;
+}
+.flatSaleButton{
+    width: 200px;
+    height: 70px;
+    padding: 15px;
+    border: 2px solid rgb(255, 1, 107);
+  margin-top: 50px;
+  margin-left: 40px;
+  color:rgb(255, 1, 107) ;
+}
+.flatSaleButton:hover{
+    background-color: rgb(255, 1, 107);
+    color: white;
+}
