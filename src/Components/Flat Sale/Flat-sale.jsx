@@ -30,7 +30,7 @@ const FlatSale = () => {
             
         </div>
         <div className="branddealing">
-          <marquee behavior="" direction=""></marquee>
+          {/* <marquee behavior="" direction=""></marquee> */}
         </div>
       
     </div>
