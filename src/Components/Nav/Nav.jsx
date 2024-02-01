@@ -13,21 +13,21 @@ const NavBar = () => {
         <Nav className="ml-auto navLinks">
           <div className="items">
           <Nav.Item >
-            <Nav.Link style={{color:"white"}}  href="#">Home</Nav.Link>
+            <Nav.Link style={{color:"white",cursor:"pointer"}}  href="#">DEMOS</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link style={{color:"white"}}  href="#">Features</Nav.Link>
+            <Nav.Link style={{color:"white"}}  href="#">CATEGORIES</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link style={{color:"white"}} href="#">Pricing</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-          
-          <Nav.Link style={{color:"white"}}  href="#">Pricing</Nav.Link>
+            <Nav.Link style={{color:"white"}} href="#">PAGES</Nav.Link>
           </Nav.Item>
           <Nav.Item>
           
-          <Nav.Link style={{color:"white"}}  href="#">Pricing</Nav.Link>
+          <Nav.Link style={{color:"white"}}  href="#">PRODUCTS</Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+          
+          <Nav.Link style={{color:"white"}}  href="#">BLOGS</Nav.Link>
           </Nav.Item>
           </div>
           <div className="navIcons">

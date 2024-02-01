@@ -60,7 +60,7 @@
     color: rgb(255, 1, 107);
 }
 .flatsle{
-    /* border: 3px solid black; */
+   
     width: inherit;
     height: 100%;
     text-align: center;
@@ -80,9 +80,9 @@
     height: 70px;
     padding: 15px;
     border: 2px solid rgb(255, 1, 107);
-  margin-top: 50px;
-  margin-left: 40px;
-  color:rgb(255, 1, 107) ;
+    margin-top: 50px;
+    margin-left: 40px;
+    color:rgb(255, 1, 107) ;
 }
 .flatSaleButton:hover{
     background-color: rgb(255, 1, 107);

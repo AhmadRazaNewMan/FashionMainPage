@@ -1,7 +1,10 @@
     *{
         font-family: 'Poppins', sans-serif;
+       
     }
-
+body{
+    background: whitesmoke;
+}
     .productOverCollectionTitle{
     color: white;
     }

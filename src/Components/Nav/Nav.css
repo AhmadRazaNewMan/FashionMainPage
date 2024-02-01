@@ -24,10 +24,11 @@
     font-weight: 400;
     display: flex;
     margin-left: 250px;
+    box-sizing: border-box;
 }
+.navLinks .items a:hover{
+    border-bottom: 1px solid white;
 
-.navLinkItem a {
-    color: white !important;
 }
 .navIcons {
     margin-left: 300px;
@@ -37,6 +38,7 @@
     gap: 10px;
     color: white;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 

@@ -29,9 +29,7 @@ const FlatSale = () => {
             </div>
             
         </div>
-        <div className="branddealing">
-          {/* <marquee behavior="" direction=""></marquee> */}
-        </div>
+        
       
     </div>
   )
