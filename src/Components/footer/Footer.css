@@ -113,15 +113,29 @@ span button{
 
 
 @media only screen and (max-width: 768px) {
-   
+   .footer{
+    height: auto;
+   }
      .footerTop{
         display: flex;
         flex-direction: column;
         height: auto;
-        margin-bottom: 10px;
+       
      }
      .fButton button{
         margin-left: 110px;
+     }
+     .footerBottom{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        /* background-color: rgb(230, 11, 197); */
+     }
+     .getInTouch,.myAccount,.information,.support{
+        border: 1px solid white;
+        width: 200px;
      }
    
    

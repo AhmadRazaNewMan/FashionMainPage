@@ -28,7 +28,7 @@ const Footer = () => {
       <div className="footerBottom">
         <div className="getInTouch">
             <h5>GET IN TOUCH</h5>
-            Lorem ipsum dolor sit amet,<br />
+            <br />
              consectetur adipisicing elit. <br />
              Quam, nesciunt maxime! Fugiat, <br />
              consectetur adipisci omnis <br />
