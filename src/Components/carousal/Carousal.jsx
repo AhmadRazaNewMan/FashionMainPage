@@ -12,7 +12,7 @@ const Carousal = () => {
           <div className="topC">
             <h1>WOMEN</h1>
             <h4>
-              COLLECTION{" "}
+              COLLECTION
               <span>
                 SALE <br />
                 FOR LIMITED TIME
@@ -85,6 +85,7 @@ const Carousal = () => {
           type="button"
           data-bs-target="#carouselExampleIndicators"
           data-bs-slide="next"
+          
         >
           <span
             className="carousel-control-next-icon"

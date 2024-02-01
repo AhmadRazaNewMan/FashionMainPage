@@ -40,7 +40,7 @@ const AllCollection = () => {
             <div className="productOverCollectionTitle">
               <div className="h-line"></div>
               <h1>
-                <span id="productOverCollectionTitleSpan1">WOMEN </span> <br />
+                <span id="productOverCollectionTitleSpan1" style={{opacity:1}}>WOMEN </span> <br />
                 <span id="productOverCollectionTitleSpan2">COLLECTION </span>
               </h1>
               <div className="h-line"></div>
@@ -51,7 +51,7 @@ const AllCollection = () => {
                   margin: "0 22px",
                   height: "400px",
                   backgroundColor: "rgba(233, 18, 129",
-                  opacity: 0.9,
+                  // opacity: 0.9,
                   // zIndex: 20000,
                   paddingTop: "150px",
                   textAlign: "center",
@@ -123,7 +123,19 @@ const AllCollection = () => {
             src="https://plus.unsplash.com/premium_photo-1675186049419-d48f4b28fe7c?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D"
             alt=""
           />
-          <div className="productCollectionOverlay"></div>
+          <div className="productCollectionOverlay">
+          <div className="productOverCollectionTitle">
+              <div className="h-line"></div>
+              <h1>
+                <span id="productOverCollectionTitleSpan1">MEN </span> <br />
+                <span id="productOverCollectionTitleSpan2">COLLECTION </span>
+              </h1>
+              <div className="h-line"></div>
+            </div>
+            <div className="overlayButton">
+              VIEW COLLECTION &nbsp;<i class="ri-arrow-right-fill"></i>
+            </div>
+          </div>
         </div>
         <div className="productCollection" id="kidProductCollection">
           <img
@@ -134,6 +146,7 @@ const AllCollection = () => {
             className="productCollectionOverlay"
             id="allCollectionMenOutline"
           >
+            
             <div
               className="allCollectionAddToCartCenterDiv"
               id="allCollectionAddToCartCenterDiv"
@@ -162,7 +175,7 @@ const AllCollection = () => {
 
       <div className="testimonialTitle">
         <div className="horizentalLine" id="up"></div>
-        <h1>ALL COLLECTIONS</h1>
+        <h1>RECENT COLLECTIONS</h1>
         <div className="horizentalLine" id="down"></div>
       </div>
       <div className="productCollections">

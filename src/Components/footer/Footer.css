@@ -103,3 +103,26 @@ span button{
     outline: none;
 
 }
+
+
+
+
+
+                /* Media Queries */
+
+
+
+@media only screen and (max-width: 768px) {
+   
+     .footerTop{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin-bottom: 10px;
+     }
+     .fButton button{
+        margin-left: 110px;
+     }
+   
+   
+  }

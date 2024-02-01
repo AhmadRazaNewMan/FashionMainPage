@@ -1,7 +1,6 @@
 .FlatSaleComponent-div{
     width: 100%;
     height: auto;
-    /* border: 2px solid black; */
     overflow: hidden;
    position: relative;
  
@@ -14,15 +13,12 @@
      object-fit: cover;
 }
 .whiteBack{
-    /* border: 2px solid black; */
     background-color: white;
     margin:70px 0px 0px 250px;
     width: 65%;
     height: 260px;
     position: absolute;
     top: 0;
-
-
 }
 .pinkBack{
     display: inline-block;
@@ -36,7 +32,6 @@
 
 }
 .discountContent{
-    /* border: 1px solid black; */
     width: 60%;
     height: 100%;
     display: flex;
@@ -44,7 +39,6 @@
     
 }
 .discountContentSale{
-    /* border: 1px solid black; */
     width: 50%;
     height: 100%;
     text-align: center;
@@ -88,3 +82,39 @@
     background-color: rgb(255, 1, 107);
     color: white;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .mainFlatSaleImgDiv{
+        margin-right: 1 0px;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    .FlatSaleComponent-div img{
+        height: 700px;
+        width: 400px;
+        display: flex;
+        margin-right: 200px;
+        justify-content: center;
+        align-items: center;
+    }
+    .whiteBack{
+        height: 600px;
+        margin-right: 250px;
+        width: 360px;
+    }
+    .pinkBack{
+        height: 550px;
+        width: 320px;
+    }
+    .discountContent{
+        display: grid;
+    }
+    .flatSaleButton{
+        margin-left: 0px;
+    }
+
+   
+   
+  }

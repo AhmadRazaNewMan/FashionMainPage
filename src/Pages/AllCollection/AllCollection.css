@@ -1,5 +1,5 @@
 .allCollection{
-     border: 1px solid black;
+    
      width: 100%;
      height: auto;
      display: flex;
@@ -13,7 +13,7 @@
     width: 70%;
     display: flex;
     gap: 10px;
-    /* box-sizing: border-box; */
+ 
 }
 
 .productCollection{
@@ -50,5 +50,12 @@
       height: 100%; 
       width: 80%;
       margin-left: 50px;
+    }
+    .productCollectionOverlay{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
     }
   }

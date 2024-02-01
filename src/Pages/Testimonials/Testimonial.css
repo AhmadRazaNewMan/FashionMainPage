@@ -1,7 +1,6 @@
 .testimonial{
     height: 90%;
     width: 100%;
-    /* border: 2px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,9 +10,6 @@
 }
 .testimonialTitle{
     margin-top: 2em;
-   /* border: 1px solid rebeccapurple; */
-    
-
 }
 .horizentalLine{
     margin-top: 1em;
@@ -27,47 +23,60 @@
 }
 
 .coustomerAndReview{
-    /* border:2px solid black; */
     margin: 4em ;
     width: 70%;
     height: 70vh;
     display: flex;
-    /* flex-direction: row; */
 }
-
-
-
-
 .coustomerImage {
     width: 50%;
     height: 100%;
-   
-    /* border: 1px solid black; */
     background-color: pink;
-
 }
 .coustomerImage img{
     object-fit: cover;
     width: 100%;
     height: 100%;
     opacity: 0.5;
-   
-    
 }
 .coustomerReview{
     width: 50%;
-    /* border: 1px solid black; */
     background-color: white ;
     text-wrap: wrap;
     padding: 30px;
-
 }
 #commas{
     font-size: 40px;
-
 }
 .Name,
 .place {
     color: gray;
     font-size: 20px;
 }
+          /* media Queries  */
+
+
+          @media only screen and (max-width: 768px) {
+         
+            .coustomerAndReview{
+            
+                display: flex;
+                flex-direction: column;
+                height: 1000px;
+
+            }
+            .coustomerImage{
+             
+                width: 100%;
+                height: 50%;
+
+            }
+           
+            .coustomerReview{
+                width:  100%;
+            }
+
+          }
+        
+
+
